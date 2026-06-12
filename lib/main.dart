@@ -19,7 +19,7 @@ class MyApp extends ConsumerWidget {
       title: 'RecipeHub',
       theme: AppColors.lightTheme,
       darkTheme: AppColors.darkTheme,
-      themeMode: themeMode,
+      themeMode: themeMode.value ?? ThemeMode.light,
       home: const SplashScreen(),
     );
   }

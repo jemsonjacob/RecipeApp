@@ -28,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -50,6 +51,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 0.5,
+                color: AppColors.black,
               ),
             ),
             const SizedBox(height: 15),
